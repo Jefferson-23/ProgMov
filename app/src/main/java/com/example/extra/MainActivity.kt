@@ -73,12 +73,11 @@ fun allButtons() {
             }
             // Create a Text Button
             TextButton(
-                colors = ButtonColor,
                 onClick = {},
                 modifier = Modifier.padding(8.dp),
                 shape = RoundedCornerShape(8.dp)
             ) {
-                Text(text = "Text Button")
+                Text(text = "Text Button", color = customColor)
             }
         }
 
@@ -113,7 +112,7 @@ fun allButtons() {
         Spacer(modifier = Modifier.height(16.dp))
 
 
-        val customTextColor = Color(0xFF109D58) //Color T
+        val customTextColor = Color(0xFF109D58) //Color T 2
         // Column para el tercer grupo de botones
         Row {
             // Outlined Button
